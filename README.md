@@ -1,7 +1,3 @@
-# adactsi
-AdaCTSi project: Code, datasets and supplemental material.
-
-
 # AdaCTSi: Enabling Adaptive On-Demand Data Imputation for Correlated Time Series
 
 Welcome to the repository for the paper "AdaCTSi: Enabling Adaptive On-Demand Data Imputation for Correlated Time Series". This repository provides access to the code, and datasets associated with our submission. 
