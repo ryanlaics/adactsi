@@ -17,7 +17,7 @@ conda activate adactsi_env
 ```
 
 ### Option 2: Offline Setup (Pre-packed Environment)
-If you have the pre-packed environment file (`packed_environment.tar.gz`), you can set it up without installing Conda or downloading dependencies.
+You can download the pre-packed environment file (`packed_environment.tar.gz`)[here](https://drive.google.com/file/d/1i0WmurO2I6cEd5J74n05yng6Scko_obY/view?usp=sharing).
 
 1.  **Extract the environment**:
     ```bash
