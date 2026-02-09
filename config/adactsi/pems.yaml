@@ -1,0 +1,23 @@
+dataset_name: 'pems_point'
+subdataset_name: 'PEMS11' # From run_adactsi.py default
+window: 24 # From MyImputer hardcoding
+adj_threshold: 0.1 # From run_adactsi.py default
+
+detrend: False
+scale: True
+scaling_axis: 'global'
+scaled_target: True # From run_adactsi.py default
+
+epochs: 400 # From run_adactsi.py default
+batch_size: 32 # From SpatioTemporalDataModule default
+aggregate_by: ['mean'] # From run_adactsi.py default
+
+model_name: 'adactsi'
+pred_loss_weight: 1.0 # From run_adactsi.py default
+
+# Model specific hardcoded values extracted from lib/nn/models/model.py
+# Note: These values are currently hardcoded in the model class.
+base_dim: 96
+group: 1
+cnn_layers: 3
+steps_per_day: 288 # Hardcoded in AdaCTSi (correct for PEMS 5-min data)

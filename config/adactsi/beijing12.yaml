@@ -1,0 +1,27 @@
+dataset_name: 'beijing12'
+window: 24
+
+adj_threshold: 0.1
+
+detrend: False
+scale: True
+scaling_axis: 'global'
+scaled_target: True
+
+epochs: 300
+batch_size: 32
+aggregate_by: ['mean']
+
+model_name: 'adactsi'
+pred_loss_weight: 1.0
+
+# Model params
+base_dim: 96
+group: 1
+cnn_layers: 3
+steps_per_day: 24
+
+# SFA (Sensor Failure Adaptability) Experiment Settings
+# Recommended limit_nodes (remaining sensors) for progressively increasing failure rates (Low, Medium, High)
+# Based on Total Nodes = 12
+sfa_limit_nodes: [10, 8, 6,3]
