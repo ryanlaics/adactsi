@@ -86,6 +86,17 @@ python run_adactsi.py --dataset-name vessel --config config/adactsi/vessel.yaml
 
 ---
 
+## 📌 Auxiliary ReCTSi Reference
+
+[ReCTSi](https://doi.org/10.1145/3637528.3671816) (KDD 2024) is related prior work in the same research line. It studies efficient CTS imputation under a fixed input/configuration setting through decoupled pattern learning and completeness-aware attention.
+
+ReCTSi and AdaCTSi address different experimental interfaces. ReCTSi assumes a fixed input/configuration setting, whereas AdaCTSi is designed for native on-demand elastic inference under varying sensor subsets, sensor failures, and resource-driven sensor partitioning with a single trained model. For transparency, we provide ReCTSi links as reference material in this repository, but it is not included as a formal external baseline in the AdaCTSi TKDE manuscript tables.
+
+- Paper: [ReCTSi: Resource-efficient Correlated Time Series Imputation via Decoupled Pattern Learning and Completeness-aware Attentions](https://doi.org/10.1145/3637528.3671816)
+- Code: [https://github.com/ryanlaics/RECTSI](https://github.com/ryanlaics/RECTSI)
+
+---
+
 ## 🖥️ GPU Configuration
 
 You can control which device to use for training/inference via the `--gpu` flag.
