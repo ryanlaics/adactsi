@@ -24,4 +24,4 @@ steps_per_day: 8640 # 24 * 60 * 6 (10s intervals)
 # SFA (Sensor Failure Adaptability) Experiment Settings
 # Recommended limit_nodes (remaining sensors) for progressively increasing failure rates (Low, Medium, High)
 # Based on Total Nodes = 20 (Subset)
-sfa_limit_nodes: [16, 12, 10,4]
+sfa_limit_nodes: [12, 10,4]
